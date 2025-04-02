@@ -91,7 +91,7 @@ table_names = ['datasets', 'publications', 'educational_resources', 'experiments
 # table_names = ['datasets']
 
 if platform.system() == "Windows":
-    sql_path = "C:/Users/krupp/PycharmProjects/AI4Europe_new_UX/resources_2024-07-04.db"
+    sql_path = "./PycharmProjects/AI4Europe_new_UX/resources_2024-07-04.db"
 else:
     sql_path = "resources_2024-07-04.db"
 # Process each table
