@@ -107,7 +107,7 @@ def store_responses_in_db(database_name, table_name, counter_api_url, data_api_u
 # store_responses_in_db('../resources.db', 'ml_models', "https://api.aiod.eu/counts/ml_models/v1", "https://api.aiod.eu/ml_models/v1", 1000, 0)  # 13801 entries
 
 # doesn't work - needs additional code
-db_path = 'C:/Users/krupp/PycharmProjects/AI4Europe_new_UX/resources_2024-07-26.db'
+db_path = './PycharmProjects/AI4Europe_new_UX/resources_2024-07-26.db'
 store_responses_in_db(db_path, 'datasets', "https://api.aiod.eu/counts/datasets/v1", "https://api.aiod.eu/datasets/v1", 200, 0)  # over 400k entries # 14352, 15612
 store_responses_in_db(db_path, 'experiments', "https://api.aiod.eu/counts/experiments/v1", "https://api.aiod.eu/experiments/v1", 100, 0)
 store_responses_in_db(db_path, 'educational_resources', "https://api.aiod.eu/counts/educational_resources/v1", "https://api.aiod.eu/educational_resources/v1", 100, 0)
