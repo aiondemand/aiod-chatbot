@@ -119,7 +119,7 @@ def rebuild_urls(db_path, table_name):
 
 
 # Configuration
-db_path = 'C:/Users/krupp/PycharmProjects/AI4Europe_new_UX/resources_2024-07-04.db'
+db_path = './PycharmProjects/AI4Europe_new_UX/resources_2024-07-04.db'
 table_names = ['publications', 'educational_resources', 'experiments', 'ml_models', 'datasets']
 
 # rebuild_urls(db_path, table_names)
